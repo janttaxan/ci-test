@@ -4,4 +4,4 @@ on: push
 
 jobs:
   hello-world:
-    - run: make say-hello
+    run: make say-hello
