@@ -1,7 +1,7 @@
 name: hello-world
 
 on: push
-
 jobs:
   hello-world:
-    run: make say-hello
+    steps:
+      - run: make say-hello
